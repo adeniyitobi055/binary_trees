@@ -73,7 +73,7 @@ void binary_tree_print(const binary_tree_t *tree)
 	s = malloc(sizeof(*s) * (height + 1));
 	if (!s)
 		return;
-	if (i = 0; i < height + 1; i++)
+	for (i = 0; i < height + 1; i++)
 	{
 		s[i] = malloc(sizeof(**s) * 255);
 		if (!s[i])
